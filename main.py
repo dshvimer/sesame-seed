@@ -9,7 +9,7 @@ def voice():
     """Respond to incoming phone calls with '9'"""
     resp = VoiceResponse()
 
-    resp.play('', digits='9')
+    resp.play('', digits='www9')
     resp.hangup()
 
     return str(resp)
